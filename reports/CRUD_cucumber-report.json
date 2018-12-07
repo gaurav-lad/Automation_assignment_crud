@@ -1,0 +1,354 @@
+[
+  {
+    "elements": [
+      {
+        "id": "perform-crud-operations-for-computers-management-application;adding-new-computer-device-in-database",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Adding new computer device in database",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I am at home page",
+            "result": {
+              "status": "passed",
+              "duration": 3952584047
+            },
+            "line": 6,
+            "match": {
+              "location": "/Users/rajat/Documents/GL/GL_001/xebia_automation_assignment/step-definitions/CrudSteps.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on Add a new computer",
+            "result": {
+              "status": "passed",
+              "duration": 393348738
+            },
+            "line": 8,
+            "match": {
+              "location": "/Users/rajat/Documents/GL/GL_001/xebia_automation_assignment/step-definitions/CrudSteps.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I provide new computer details",
+            "result": {
+              "status": "passed",
+              "duration": 1288386918
+            },
+            "line": 9,
+            "match": {
+              "location": "/Users/rajat/Documents/GL/GL_001/xebia_automation_assignment/step-definitions/CrudSteps.js:28"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "The computer details should get added in record",
+            "result": {
+              "status": "passed",
+              "duration": 51678728
+            },
+            "line": 10,
+            "match": {
+              "location": "/Users/rajat/Documents/GL/GL_001/xebia_automation_assignment/step-definitions/CrudSteps.js:40"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 95597068
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/rajat/Documents/GL/GL_001/xebia_automation_assignment/runtime/world.js:151"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@create",
+            "line": 4
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "perform-crud-operations-for-computers-management-application;searching-for-newly-added-computer-in-record",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Searching for newly added computer in record",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I am at home page",
+            "result": {
+              "status": "passed",
+              "duration": 2135406237
+            },
+            "line": 14,
+            "match": {
+              "location": "/Users/rajat/Documents/GL/GL_001/xebia_automation_assignment/step-definitions/CrudSteps.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I search for newly added computer",
+            "result": {
+              "status": "passed",
+              "duration": 602815643
+            },
+            "line": 15,
+            "match": {
+              "location": "/Users/rajat/Documents/GL/GL_001/xebia_automation_assignment/step-definitions/CrudSteps.js:45"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should see the record of computer",
+            "result": {
+              "status": "passed",
+              "duration": 53580020
+            },
+            "line": 16,
+            "match": {
+              "location": "/Users/rajat/Documents/GL/GL_001/xebia_automation_assignment/step-definitions/CrudSteps.js:51"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 82084232
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/rajat/Documents/GL/GL_001/xebia_automation_assignment/runtime/world.js:151"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@read",
+            "line": 12
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "perform-crud-operations-for-computers-management-application;update-for-existing-computer-in-record",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Update for existing computer in record",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I am at home page",
+            "result": {
+              "status": "passed",
+              "duration": 1941159658
+            },
+            "line": 20,
+            "match": {
+              "location": "/Users/rajat/Documents/GL/GL_001/xebia_automation_assignment/step-definitions/CrudSteps.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I search for newly added computer",
+            "result": {
+              "status": "passed",
+              "duration": 866110222
+            },
+            "line": 21,
+            "match": {
+              "location": "/Users/rajat/Documents/GL/GL_001/xebia_automation_assignment/step-definitions/CrudSteps.js:45"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should see the record of computer",
+            "result": {
+              "status": "passed",
+              "duration": 64231452
+            },
+            "line": 22,
+            "match": {
+              "location": "/Users/rajat/Documents/GL/GL_001/xebia_automation_assignment/step-definitions/CrudSteps.js:51"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I update the computer details",
+            "result": {
+              "status": "passed",
+              "duration": 1255429079
+            },
+            "line": 23,
+            "match": {
+              "location": "/Users/rajat/Documents/GL/GL_001/xebia_automation_assignment/step-definitions/CrudSteps.js:59"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I search for updated computer device",
+            "result": {
+              "status": "passed",
+              "duration": 743072362
+            },
+            "line": 24,
+            "match": {
+              "location": "/Users/rajat/Documents/GL/GL_001/xebia_automation_assignment/step-definitions/CrudSteps.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should see the updated record of computer",
+            "result": {
+              "status": "passed",
+              "duration": 43820036
+            },
+            "line": 25,
+            "match": {
+              "location": "/Users/rajat/Documents/GL/GL_001/xebia_automation_assignment/step-definitions/CrudSteps.js:72"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 122015266
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/rajat/Documents/GL/GL_001/xebia_automation_assignment/runtime/world.js:151"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@update",
+            "line": 18
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "perform-crud-operations-for-computers-management-application;delete-for-existing-computer-in-record",
+        "keyword": "Scenario",
+        "line": 28,
+        "name": "Delete for existing computer in record",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I am at home page",
+            "result": {
+              "status": "passed",
+              "duration": 1966492217
+            },
+            "line": 29,
+            "match": {
+              "location": "/Users/rajat/Documents/GL/GL_001/xebia_automation_assignment/step-definitions/CrudSteps.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I search for newly added computer",
+            "result": {
+              "status": "passed",
+              "duration": 742052906
+            },
+            "line": 30,
+            "match": {
+              "location": "/Users/rajat/Documents/GL/GL_001/xebia_automation_assignment/step-definitions/CrudSteps.js:45"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should see the record of computer",
+            "result": {
+              "status": "passed",
+              "duration": 50521137
+            },
+            "line": 31,
+            "match": {
+              "location": "/Users/rajat/Documents/GL/GL_001/xebia_automation_assignment/step-definitions/CrudSteps.js:51"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I delete the computer",
+            "result": {
+              "status": "passed",
+              "duration": 1430684324
+            },
+            "line": 32,
+            "match": {
+              "location": "/Users/rajat/Documents/GL/GL_001/xebia_automation_assignment/step-definitions/CrudSteps.js:78"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "The computer record should get deleted from record",
+            "result": {
+              "status": "passed",
+              "duration": 43371594
+            },
+            "line": 33,
+            "match": {
+              "location": "/Users/rajat/Documents/GL/GL_001/xebia_automation_assignment/step-definitions/CrudSteps.js:84"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 81589498
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/rajat/Documents/GL/GL_001/xebia_automation_assignment/runtime/world.js:151"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@delete",
+            "line": 27
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "perform-crud-operations-for-computers-management-application",
+    "keyword": "Feature",
+    "line": 2,
+    "name": "Perform CRUD Operations for Computers Management Application",
+    "tags": [],
+    "uri": "/Users/rajat/Documents/GL/GL_001/xebia_automation_assignment/features/CRUD.feature"
+  }
+]

@@ -1,0 +1,64 @@
+{
+  "name": "selenium-automation-crud",
+  "version": "0.0.1",
+  "description": "Automation framework selenium-webdriver for browser",
+  "main": "index.js",
+  "author": {
+    "name": "Gaurav Lad",
+    "email": "gaurav.lad02@gmail.com"
+  },
+  "scripts": {
+    "setup": "npm i",
+    "test": "node index.js -f ./features/CRUD.feature -t @create,@read,@update,@delete",
+    "create": "node index.js -f ./features/CRUD.feature -t @create",
+    "read": "node index.js -f ./features/CRUD.feature -t @read",
+    "update": "node index.js -f ./features/CRUD.feature -t @update",
+    "delete": "node index.js -f ./features/CRUD.feature -t @delete"
+  },
+  "license": "ISC",
+  "keywords": [
+    "selenium",
+    "selenium bdd",
+    "cucumber",
+    "cucumber-js",
+    "webdriver",
+    "selenium-webdriver",
+    "chromedriver",
+    "phantomjs",
+    "testing",
+    "bdd"
+  ],
+  "engines": {
+    "node": ">= 6.9.0"
+  },
+  "dependencies": {
+    "chai": "^3.5.0",
+    "chalk": "^1.1.3",
+    "child_process": "^1.0.2",
+    "chromedriver": "^2.28.0",
+    "commander": "^2.9.0",
+    "cucumber": "^1.2.2",
+    "cucumber-html-reporter": "^0.2.17",
+    "dateformat": "^2.0.0",
+    "express": "^4.14.1",
+    "faker": "^3.1.0",
+    "find-remove": "^1.0.0",
+    "fs-plus": "^2.9.1",
+    "fs-readdir": "0.0.3",
+    "geckodriver": "^1.3.0",
+    "merge": "^1.2.1",
+    "node-slack": "0.0.7",
+    "node-slack-upload": "^1.2.1",
+    "process": "^0.11.9",
+    "require-dir": "^0.3.0",
+    "rsvp": "^3.3.3",
+    "selenium-webdriver": "^3.0.0"
+  },
+  "devDependencies": {
+    "iedriver": "^3.13.0",
+    "optimist": "^0.6.1",
+    "promise": "^7.1.1",
+    "superagent": "^3.4.4",
+    "superagent-promise": "^1.1.0"
+  }
+}
