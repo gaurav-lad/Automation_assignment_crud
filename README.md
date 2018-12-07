@@ -1,5 +1,5 @@
-ReadME
-The tak for this test is to create automation tests to cover art least the CRUD operations on a website that contains a DB of computers.
+
+The task for this test is to create automation tests to cover atleast the CRUD operations on a website that contains a DB of computers.
 
 Tools, technologies & Language used:
 Selenium web driver, Node.js, cucumber, BDD, Page object model, JavaScript.
