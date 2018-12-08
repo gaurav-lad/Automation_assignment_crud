@@ -14,19 +14,19 @@ Setup steps:
 3. Navigate to clone repo on computer
 4. Execute 'npm install'
 This command will install all the required npm packages on computer
-5. Executing automation scripts
-'npm run setup'
-This will setup the dependencies for framework
-'npm run test'
-This will perform all crud operations
-'npm run create'
-This will add new computer in record
-'npm run read':
-This will search existing computer in record
-'npm run update':
-This will update existing computer in record
-'npm run delete':
-This will delete existing computer in record
+5. Executing automation scripts:
+'npm run setup':-
+This will setup the dependencies for framework.
+'npm run test':-
+This will perform all crud operations.
+'npm run create':-
+This will add new computer in record.
+'npm run read':-
+This will search existing computer in record.
+'npm run update':-
+This will update existing computer in record.
+'npm run delete':-
+This will delete existing computer in record.
 
 Report can be found under folder 'reports' by name 'cucumber-report.html' in same repo.
 
