@@ -8,7 +8,7 @@ Core Java/Python/Protractor/NightWatch...)
 
 Project structured using Page object model.
 
-Setup steps:
+# Setup steps:
 1. Clone repo
 2. Open command prompt
 3. Navigate to clone repo on computer
@@ -32,7 +32,7 @@ Report can be found under folder 'reports' by name 'cucumber-report.html' in sam
 
 Interesting part is to use Faker.js npm module which will create random valid names.
 
-Test cases under cover:
+# Test cases under cover:
 TC1: Create record and search for same.
 TC2: Search record and verify.
 TC3: Update existing computer record and verify
@@ -40,3 +40,10 @@ TC4: Delete existing computer record and verify
 TC5: Verify computer found count
 TC6: Verify accessing button enable
 TC7: verify accessing input field enable
+
+# FOLLOWING WILL BE OUTPUTS OF THE EXECUTION OF THE SUITE :
+
+![Commandline Execution](https://github.com/gaurav-lad/xebia_automation_assignment_crud/blob/master/img/comandline_execution.png)
+
+
+![Cucumber Html Report Execution](https://github.com/gaurav-lad/xebia_automation_assignment_crud/blob/master/img/crud_execution.png)
