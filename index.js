@@ -51,19 +51,10 @@ if (program.suite == "undefined") {
 
 var c1 = null;
 
-if (suite != null) {
-    if (suite == "stockton") {
-        console.log('config loaded for ', suite);
-        c1 = jsonfile.readFileSync('./support/config_stockton.json');
-        var filePath = './support/config.json';
-        jsonfile.writeFileSync(filePath, c1);
-    }
-} else {
     console.log('default config loaded');
     c1 = jsonfile.readFileSync('./support/config.json');
     var filePath = './support/config.json';
     jsonfile.writeFileSync(filePath, c1);
-}
 
 global.config = jsonfile.readFileSync('./support/config.json');
 global.HTML = jsonfile.readFileSync('./support/html.json');
