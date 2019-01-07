@@ -14,17 +14,17 @@ Project structured using Page object model.
 3. Navigate to clone repo on computer
 4. Execute 'npm install'
 This command will install all the required npm packages on computer
-5. Executing automation scripts:
+5. Executing automation scripts:<br/>
 'npm run setup':-
-This will setup the dependencies for framework.
+This will setup the dependencies for framework.<br/>
 'npm run test':-
-This will perform all crud operations.
+This will perform all crud operations.<br/>
 'npm run create':-
-This will add new computer in record.
+This will add new computer in record.<br/>
 'npm run read':-
-This will search existing computer in record.
+This will search existing computer in record.<br/>
 'npm run update':-
-This will update existing computer in record.
+This will update existing computer in record.<br/>
 'npm run delete':-
 This will delete existing computer in record.
 
