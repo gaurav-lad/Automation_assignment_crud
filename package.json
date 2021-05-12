@@ -46,7 +46,7 @@
     "fs-plus": "^2.9.1",
     "fs-readdir": "0.0.3",
     "geckodriver": "^1.3.0",
-    "merge": "^1.2.1",
+    "merge": "^2.1.1",
     "node-slack": "0.0.7",
     "node-slack-upload": "^1.2.1",
     "process": "^0.11.9",
